@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.4 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=newtemp.map -O0 --gc-sections --specs=nano.specs -u _printf_float -u _scanf_float -lm -LC:\CooCox\CoIDE\configuration\ProgramData\newtemp -TC:\CooCox\CoIDE\configuration\ProgramData\newtemp/arm-gcc-link.ld -g">
+      <target file="newtemp.elf" lastModified="1685606f28d">
+         <source file="..\obj\semihosting.o" lastModified="16803d41d5b"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="16803d41e55"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="16803d41ec3"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="16803d41f01"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="16803d41f7e"/>
+         <source file="..\obj\main.o" lastModified="1685606f079"/>
+         <source file="..\obj\printf.o" lastModified="16803d42327"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="16803d423a4"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="16803d42432"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="16803d424ae"/>
+         <source file="..\obj\sh_cmd.o" lastModified="16803d424be"/>
+         <source file="..\obj\syscalls.o" lastModified="16803d4251b"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="16803d42588"/>
+         <source file="..\obj\misc.o" lastModified="16803d425e7"/>
+      </target>
+   </processor>
+</history>
